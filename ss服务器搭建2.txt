@@ -1,0 +1,18 @@
+第一步命令（一律选择y）
+yum install wget
+第二步命令（一律选择y）
+yum -y update
+第三步命令（密码设置复杂点，端口13596，加密协议：aes-128-cfb 其它默认直接按enter键）
+wget --no-check-certificate -O shadowsocks-libev_CN.sh https://raw.githubusercontent.com/uxh/shadowsocks_bash/master/shadowsocks-libev_CN.sh && bash shadowsocks-libev_CN.sh
+第四步
+wget "https://github.com/chiakge/Linux-NetSpeed/raw/master/tcp.sh" && chmod +x tcp.sh && ./tcp.sh
+选择3(锐速加速,其余一律默认enter键)--------------------安装
+安装完毕会询问是否重启，选择Y
+重启
+
+输入
+ ./tcp.sh
+选择8-------------------------启用加速
+
+完毕
+

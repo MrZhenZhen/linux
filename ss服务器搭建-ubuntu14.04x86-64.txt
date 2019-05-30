@@ -1,0 +1,40 @@
+第一步命令（一律选择y）
+apt-get update
+apt-get upgrade
+第二步命令（一律选择y）
+apt-get install wget
+第三步命令（密码设置复杂点，端口13596，加密协议：aes-128-cfb 其它默认直接按enter键）
+wget --no-check-certificate https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-libev-debian.sh
+chmod +x shadowsocks-libev-debian.sh
+./shadowsocks-libev-debian.sh 2>&1 | tee shadowsocks-libev-debian.log
+第四步
+wget "https://github.com/chiakge/Linux-NetSpeed/raw/master/tcp.sh" && chmod +x tcp.sh && ./tcp.sh
+选择3(锐速加速,其余一律默认enter键)--------------------安装
+安装完毕会询问是否重启，选择Y
+重启
+
+输入
+ ./tcp.sh
+选择8-------------------------启用加速
+
+完毕
+
+
+wget --no-check-certificate -qO /tmp/appex.sh "https://raw.githubusercontent.com/0oVicero0/serverSpeeder_Install/master/appex.sh" && bash /tmp/appex.sh 'install'
+
+
+/appex/bin/serverSpeeder.sh start
+# 启动 LotServer
+ 
+/appex/bin/serverSpeeder.sh stop
+# 停止 LotServer
+ 
+/appex/bin/serverSpeeder.sh restart
+# 重启 LotServer
+ 
+/appex/bin/serverSpeeder.sh status
+# 状态查询
+ 
+/appex/bin/serverSpeeder.sh renewLic
+# 更新许可
+
